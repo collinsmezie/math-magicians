@@ -1,37 +1,50 @@
-# Getting Started with Create React App
+# Math Magicians app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> A single page app consisting of a calculator and a section for random scientific quotes.
 
-## Available Scripts
+## Built With
 
-In the project directory, you can run:
+- Major languages: HTML CSS & JavaScript
+- Frameworks: React
+- Technologies used: 
 
-### `npm start`
+[Live Demo Here]()
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting started
+- To get a local copy up and running follow these simple example steps.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Prerequisites
+- Vscode
 
-### `npm run build`
+# Setup
+- git clone git@github.com:collinsmezie/math-magicians.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Usage
+- Run npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Authors
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+👤 **Collins Mezie**
 
+- GitHub: [@collinsmezie](https://github.com/collinsmezie)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/collinsmezie)
 
-## Learn More
+## 🤝 Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Contributions, issues, and feature requests are welcome!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Feel free to check the [issues page](../../issues/).
 
+## Show your support
 
-### Deployment
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is **[MIT](./LICENSE.md)** licensed. 
