@@ -1,39 +1,38 @@
 .container {
-    display: grid;
-    width: 35%;
-    margin: auto;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  display: grid;
+  width: 35%;
+  margin: auto;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .display {
-    background-color: grey;
-    padding: 40px;
+  background-color: grey;
+  padding: 40px;
 }
 
 .button-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: auto;
-    width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: auto;
+  width: 100%;
 }
 
 .bottom-row {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
 }
 
-.button {    
-    background-color: rgb(230, 230, 230);
-    padding: 26px;
-    font-size: 22px;
-    width: 100%;
-    border: 1px solid rgb(210, 210, 210);
+.button {
+  background-color: rgb(230, 230, 230);
+  padding: 26px;
+  font-size: 22px;
+  width: 100%;
+  border: 1px solid rgb(210, 210, 210);
 }
 
 .operator {
-    background-color: rgb(247, 160, 0);
+  background-color: rgb(247, 160, 0);
 }
-
