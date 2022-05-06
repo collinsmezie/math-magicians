@@ -1,6 +1,26 @@
+import PropTypes from 'prop-types';
 import React from 'react';
 import calculate from '../logic/calculate';
 import './Calculator.css';
+
+function DisplayTotal(props) {
+  const { total, next, operation } = props;
+  return (
+    <div className="display">
+      <h1>
+        {total}
+        {operation}
+        {next}
+      </h1>
+    </div>
+  );
+}
+
+DisplayTotal.propTypes = {
+  total: PropTypes.string.isRequired,
+  next: PropTypes.string.isRequired,
+  operation: PropTypes.string.isRequired,
+};
 
 class CalculatorInterface extends React.Component {
   constructor(props) {
@@ -28,21 +48,13 @@ class CalculatorInterface extends React.Component {
     const { total, next, operation } = this.state;
     return (
       <div className="container">
-        <div className="display">
-          <h1>
-            {total}
-
-            {operation}
-
-            {next}
-          </h1>
-        </div>
+        <DisplayTotal total={total} operation={operation} next={next} />
         <div className="btns">
           <div className="button-section">
             <button onClick={this.handleClicks} value="AC" className="button" type="button">AC</button>
             <button onClick={this.handleClicks} value="+/-" className="button" type="button">+/-</button>
             <button onClick={this.handleClicks} value="%" className="button" type="button">%</button>
-            <button onClick={this.handleClicks} value="/" className="button operator" type="button">/</button>
+            <button onClick={this.handleClicks} value="÷" className="button operator" type="button">÷</button>
             <button onClick={this.handleClicks} value="7" className="button" type="button">7</button>
             <button onClick={this.handleClicks} value="8" className="button" type="button">8</button>
             <button onClick={this.handleClicks} value="9" className="button" type="button">9</button>
