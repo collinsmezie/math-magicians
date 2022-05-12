@@ -47,10 +47,11 @@ class CalculatorInterface extends React.Component {
   render() {
     const { total, next, operation } = this.state;
     return (
-      <div className="container">
-        <DisplayTotal total={total} operation={operation} next={next} />
-        <div className="btns">
-          <div className="button-section">
+      <>
+        <div className="text"><h2>Let&apos;s Do some Math!</h2></div>
+        <div className="container">
+          <DisplayTotal total={total} operation={operation} next={next} />
+          <div className="btns">
             <button onClick={this.handleClicks} value="AC" className="button" type="button">AC</button>
             <button onClick={this.handleClicks} value="+/-" className="button" type="button">+/-</button>
             <button onClick={this.handleClicks} value="%" className="button" type="button">%</button>
@@ -67,14 +68,12 @@ class CalculatorInterface extends React.Component {
             <button onClick={this.handleClicks} value="2" className="button" type="button">2</button>
             <button onClick={this.handleClicks} value="3" className="button" type="button">3</button>
             <button onClick={this.handleClicks} value="+" className="button operator" type="button">+</button>
-          </div>
-          <div className="bottom-row">
-            <button onClick={this.handleClicks} value="0" className="button" type="button">0</button>
+            <button onClick={this.handleClicks} value="0" className="button zero" type="button">0</button>
             <button onClick={this.handleClicks} value="." className="button" type="button">.</button>
             <button onClick={this.handleClicks} value="=" className="button operator" type="button">=</button>
           </div>
         </div>
-      </div>
+      </>
 
     );
   }
