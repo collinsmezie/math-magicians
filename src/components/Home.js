@@ -1,18 +1,19 @@
-import React from "react";
+import React from 'react';
 import './Home.css';
 
 function Home() {
-    return (
+  return (
 
-        <div className="homepage">
-            <h2>Welcome to our page</h2>
-            <p>"Math magicians" is a website for all fans of mathematics. 
-                It is a Single Page App (SPA) that allows users to make simple calculations 
-                and read a random math-related quote.
-            </p>
+    <div className="homepage">
+      <h2>Welcome to our page</h2>
+      <p>
+        &quot; Math magicians &quot; is a website for all fans of mathematics.
+        It is a Single Page App (SPA) that allows users to make simple calculations
+        and read a random math-related quote.
+      </p>
 
-        </div>
-    )
+    </div>
+  );
 }
 
-export default Home
+export default Home;

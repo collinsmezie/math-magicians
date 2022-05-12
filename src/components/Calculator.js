@@ -48,10 +48,10 @@ class CalculatorInterface extends React.Component {
     const { total, next, operation } = this.state;
     return (
       <>
-      <div className='text'><h2>Let's Do some Math!</h2></div>
-      <div className="container">
-        <DisplayTotal total={total} operation={operation} next={next} />
-        <div className="btns">
+        <div className="text"><h2>Let&apos;s Do some Math!</h2></div>
+        <div className="container">
+          <DisplayTotal total={total} operation={operation} next={next} />
+          <div className="btns">
             <button onClick={this.handleClicks} value="AC" className="button" type="button">AC</button>
             <button onClick={this.handleClicks} value="+/-" className="button" type="button">+/-</button>
             <button onClick={this.handleClicks} value="%" className="button" type="button">%</button>
@@ -71,8 +71,8 @@ class CalculatorInterface extends React.Component {
             <button onClick={this.handleClicks} value="0" className="button zero" type="button">0</button>
             <button onClick={this.handleClicks} value="." className="button" type="button">.</button>
             <button onClick={this.handleClicks} value="=" className="button operator" type="button">=</button>
+          </div>
         </div>
-      </div>
       </>
 
     );

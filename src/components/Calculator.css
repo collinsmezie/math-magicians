@@ -7,7 +7,7 @@
 
 body {
   background: linear-gradient(to right, #eea486, #dfd9e1);
-  font: 20px/1.5 Arial, Helvetica, Sans-serif;
+  font: 20px/1.5 Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -31,11 +31,11 @@ body {
 .btns {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  width: 100%;  
+  width: 100%;
 }
 
 .zero {
-  grid-column: span 2 ;
+  grid-column: span 2;
 }
 
 .button {
