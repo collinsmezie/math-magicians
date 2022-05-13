@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quotes page of the App Builds the snapshot of the Quotes component safely 1`] = `
+<div
+  className="quotesSection"
+>
+  " Math magicians " is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.
+</div>
+`;
