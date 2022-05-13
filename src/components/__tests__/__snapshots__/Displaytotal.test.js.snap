@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display page of the App Builds the snapshot of the Display component safely 1`] = `
+<div
+  className="display"
+>
+  <h1 />
+</div>
+`;
