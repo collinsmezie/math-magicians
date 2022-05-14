@@ -11,7 +11,7 @@ A single page app consisting of a calculator and a section for random scientific
 - Frameworks: React
 - Technologies used: 
 
-[Live Demo Here]()
+[Live Demo Here](https://maths-magics.netlify.app/)
 
 ## Getting started
 - To get a local copy up and running follow these simple example steps.
